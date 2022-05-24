@@ -1,0 +1,286 @@
+<!-- Login & Social-->
+<div class="login">
+	<a [routerLink]="['login']">Iniciar sessão</a>
+	<ul>
+	  <a href="https://pt-br.facebook.com/"><img src="assets/img/facebook.png" alt="facebook"></a>
+	  <a href="https://www.twitch.tv/"><img src="assets/img/tw.png" alt="twitch"></a>
+	  <a href="https://www.instagram.com/"><img src="assets/img/insta.png" alt="instagram"></a>
+	  </ul>
+  </div>
+  <!-- Cabeçalho -->
+  <header>
+		<div class="container-grid">
+			<div class="container-grid logo">
+			<div class="logo">
+					<a [routerLink]="['']"><img src="assets/img/logo.png" alt="logo"></a>
+			</div>
+		  </div>
+<!-- Menu -->
+<nav class="navbar navbar-expand-xl bg-faded" style="background-color: #BBBBBB; border-color: rgb(255, 255, 255);">
+	<div class="container-fluid">
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item me-3" style="font-size: 23px; padding-left: 4px">
+				  <a class="nav-link active" style="color: rgb(24, 24, 24);" aria-current="page" [routerLink]="['']">Início</a>
+	</li>
+	<li class="nav-item me-3" style="font-size: 23px; padding-left: 4px">
+	<a class="nav-link active" style="color: rgb(24, 24, 24);" aria-current="page" [routerLink]="['news']">Notícias</a>
+	</li>
+	<li class="nav-item dropdown me-3">
+	  <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 23px; color: rgb(24, 24, 24)">
+		Menu
+	  </a>
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	<li><a class="dropdown-item" [routerLink]="['erro']">Comunidade</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" [routerLink]="['erro']">Política</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" [routerLink]="['erro']">Quem Somos</a></li>
+	</ul>
+	<li class="nav-item dropdown">
+	   <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 23px; color: rgb(24, 24, 24)">
+					Categorias</a>
+	  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Gabinetes</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Memória</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Monitores</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Processadores</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Jogos</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Mais ></a></li>
+		   </ul>
+		  </ul>
+	<form class="d-flex" role="search">
+	   <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+		  <button type="submit" class="btn btn-secondary me-5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Buscar">Ir</button>
+	</form>
+	</div>
+	</div>
+	</nav>
+<!-- Carrossel Bootstrap -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="transition: 1s;">
+        <img src="assets/img/jogo1.png" class="d-block w-100"  alt="jogo 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>
+            The Legend of Zelda™: Breath of the Wild</h5>
+            <p style="text-decoration: line-through">R$349,99</p>
+            <p><h4>Por R$259,90</h4>
+        </div>
+      </div>
+      <div class="carousel-item" style="transition: 1s;">
+        <img src="assets/img/jogo2.png" class="d-block w-100" alt="jogo 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Call of Duty®: Black Ops</h5>
+          <p style="text-decoration: line-through">R$249,99</p>
+            <p><h4>Por R$159,90</h4>
+        </div>
+      </div>
+      <div class="carousel-item" style="transition: 1s;">
+        <img src="assets/img/jogo3.png" class="d-block w-100" alt="jogo 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dead by Daylight</h5>
+          <p style="text-decoration: line-through">R$149,99</p>
+            <p><h4>Gratuito p/ jogar</h4>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<!-- Eletrônicos -->
+<div class="l"><br></div>
+<div class="sub">
+  <h5>Eletrônicos</h5>
+</div>
+<!-- Cards 1 -->
+
+	<div class="row row-cols-1 row-cols-md-4 g-1">
+	  <div class="col">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+		  <img src="assets/img/gabinete.png" class="card-img-top" alt="gabinete">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">GABINETE GAMER CORSAIR 7000X AIRFLOW, RGB, FULL TOWER, LATERAL DE VIDRO, PRETO, CC-9011226-WW</p>
+		  </div>
+		<div class="pp">
+		  <h4>R$299,90</h4>
+		</div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Gabinetes >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+		  <img src="assets/img/memoria.png" class="card-img-top" alt="memoria ram">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">MEMORIA CORSAIR VENGEANCE RGB PRO, 64GB (2X32GB), DDR4, 3200MHZ, C16, PRETA, CMW64GX4M2E3200C16</p>
+		  </div>
+		  <div class="pp">
+			<h4>R$199,90</h4>
+		  </div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Memórias >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+		  <img src="assets/img/processador.png" class="card-img-top" alt="processador">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">PROCESSADOR AMD RYZEN 7 5700X, 8-CORE, 16-THREADS, 3.4GHZ (4.6GHZ TURBO), CACHE 36MB, AM4, 100-100000926WOF</p>
+		  </div>
+		  <div class="pp">
+			<h4>R$2.299,90</h4>
+		  </div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Processadores >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+  <!-- Cards 2 -->
+
+	<div class="row row-cols-1 row-cols-md-4 g-1">
+	  <div class="col2">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+		  <img src="assets/img/mae.png" class="card-img-top" alt="placa mae">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">PLACA MAE GIGABYTE H610M S2H DDR4, SOCKET 1700, M-ATX, CHIPSET INTEL H610, H610M-S2H-DDR4</p>
+		  </div>
+		  <div class="pp">
+			<h4>R$999,90</h4>
+		  </div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Placa Mães >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="col2">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+		  <img src="assets/img/cadeira.png" class="card-img-top" alt="cadeira gamer">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">CADEIRA GAMER THUNDERX3 TGC12-EVO, AZUL E PRETO, TGC12-EVO-Az</p>
+		  </div>
+		  <div class="pp">
+			<h4>R$1.299,90</h4>
+		  </div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Cadeiras >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col2">
+		<div class="card h-100">
+		  <a [routerLink]="['erro']">
+			 <img src="assets/img/audio.png" class="card-img-top" alt="fone">
+		  </a>
+		  <div class="card-body">
+			<p class="card-title">HEADSET GAMER CORSAIR HS80 WIRELESS, RGB, DRIVERS 50MM, PRETO, CA-9011235-NA</p>
+		  </div>
+		  <div class="pp">
+			<h4>R$99,90</h4>
+		  </div>
+		  <div class="card-footer">
+			<a [routerLink]="['erro']">
+			<button type="button" class="btn btn-secondary">Categoria: Áudio >>></button>
+			</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  <div class="l"><br></div>
+  <div class="sub"></div>
+
+
+
+
+<!-- Newsleter -->
+<div class="nett">
+  <div>
+      <img src="assets/img/net.png" alt="newsletter">
+  </div>
+  <div>
+  <p>INSCREVA-SE NA NEWSLETTER</p>
+  <button type="button" class="btn btn-warning" id="liveToastBtn">Se inscrever</button>
+  <div class="toast-container position-fixed bottom-0 end-0 p-2">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto">Parabéns!!!</strong>
+        <small>1s ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Você está inscrito com sucesso!
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Rodapé -->
+<footer>
+	<div class="rodape">
+	  <div class="rodape-linha1">
+		<div class="help">
+		  <ul>
+			<li><a [routerLink]="['erro']">> Dúvidas frequentes</a></li>
+			<li><a [routerLink]="['erro']">> Politica de Reembolso</a></li>
+			<li><a [routerLink]="['erro']">> Outros Assuntos</a></li>
+		  </ul>
+		</div>
+		<div class="contato">
+		  <ul>
+			<li>Telefone: (19) 09999-8888</li>
+			<li>Whatsapp: (19) 09999-8888</li>
+			<li>contato_gamemania@yahoo.com</li>
+		  </ul>
+		</div>
+	  </div>
+	<div class="logob">
+	  <img src="assets/img/logob.png" alt="logo rodapé">
+	  </div>
+	</div>     

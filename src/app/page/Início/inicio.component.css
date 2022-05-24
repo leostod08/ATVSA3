@@ -1,0 +1,266 @@
+/*fonte Google*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*topo*/
+.container-grid{
+	background-color: #101214;
+	justify-content: space-between;
+	width: auto;
+	height: 195px;
+	align-items: center;
+}
+/*logo*/
+.logo img {
+	position: relative;
+	left: 650px;
+	height: 280px;
+	bottom: 42px;
+}
+header {
+	background-color: #142026;
+	height: 195px;
+}
+/*login & social*/
+.login{
+	position: relative;
+	height: 40px;
+	text-align: right;
+	background-color: #0c0c0c;
+}
+.login a{
+	color: #ccc;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	right: 80px;
+	top: 8px;
+}
+.login a:hover{
+	color: rgb(255, 255, 255);
+}
+.login ul img{
+	height: 25px;
+	width: auto;
+	position: relative;
+	right: 170px;
+	bottom: 28px;
+	margin: 0px 10px 0px;
+}
+/*cards*/
+.row{
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	background-color: #101214;
+}
+/*cards 1*/
+.col{
+	position: relative;
+	margin: 50px 10px 0px;
+	height: 430px;
+}
+.col p{
+	margin: 20px;
+}
+/*cards 2*/
+.col2{
+	position: relative;
+	margin: 0px 10px 70px;
+	top: 70px;
+	height: 430px;
+}
+.col2 p{
+	margin: 20px;
+}
+/*valor*/
+.pp{
+	color: rgb(18, 221, 0);
+	margin: 0px 10px 0px;
+}
+.card-footer .btn{
+	position: relative;
+	width: auto;
+	height: 35px;
+	left: 15px;
+	top: 10px;
+}
+.card-footer{
+	position: relative;
+	height: 55px;
+}
+/*eletrônicos*/
+.sub{
+	text-align: center;
+	text-transform: uppercase;
+	height: 70px;
+
+}
+.sub h5 {
+	position: relative;
+	top: 16px;
+	font-size: 30px;
+	font-family: Inter;
+}
+.l{
+	height: 70px;
+	background-color: #101214;
+}
+/*menu*/
+.nav-item {
+	margin: 0 5px;
+  }
+  .form-control {
+	position: relative;
+	border-radius: 5px;
+	margin: 0px 10px ;
+	height: 36px;
+	padding: 10px;
+	width: 300px;
+  }
+  .btn {
+	position: relative;
+	
+	width: 35px;
+  }
+  .container-fluid{
+	position: relative;
+	height: 50px;
+  }
+  .container-fluid li:hover{
+	  background-color: #d6d6d6;
+	  transition: 1s;
+  }
+  .navbar{
+	  padding: 1px!important;
+  }
+.dropdown-menu{
+	position: relative;
+	top: 43px;
+	border-radius: 7px;
+}
+.dropdown-menu a{
+	position: relative;
+	height: 47px;
+	text-align: left;
+	top: 12px;
+	left: 18px;
+  }
+.navbar-toggler{
+	background-color:#0c0c0c;
+	position: relative;
+	left: 20px;
+}
+
+/*newsletter*/
+.nett {
+	height: 230px;
+	width: 100%;
+	background-color: #b9b9b9;
+}
+.nett img{
+	position: relative;
+	float: left;
+	height: 90px;
+	top: 70px;
+	margin: 0px 40px 0px;
+}
+.nett p{
+	position: relative;
+	color: #ef9f19;
+	font-size: 40px;
+	top: 85px;
+}
+.nett button{
+	position: relative;
+	float: right;
+	right: 40px;
+	top: 30px;
+	width: 150px;
+	height: 50px;
+}
+/*rodapé*/
+.rodape{
+	background-color: #101214;
+	min-height: 300px;
+	width: 100%;
+	max-height: 100%;
+}
+.help{
+	position: relative;
+	left: 30px;
+	top: 40px;
+	float: left;
+}
+.help a{
+	text-decoration: none; 
+	color: #ffffff;
+	font-size: 25px;
+	font-family: inter;
+}
+.help a:hover{
+	color: #969696;
+}
+li{
+	list-style-type: none;
+}
+.contato ul {
+	float: right;
+	position: relative;
+	right: 40px;
+	top: 40px;
+	text-decoration: none; 
+	color: #ffffff;
+	font-size: 20px;
+	font-family: inter;
+}
+/*logo final*/
+.logob{
+	display: flex;
+	justify-content: center;
+}
+
+
+@media screen and (max-width: 1200px){
+	.container-grid{
+		width: 100%;
+	}
+	.container-grid .logo{
+		width: 100%;
+	}
+	.imgcc{
+		width: 100%;
+	}
+	.login a img{
+		height: 30px;
+	}
+	.nett img{
+		width: 10%;
+		height: 10%;
+	}
+	.nett .btn{
+		width: 25%;
+	}
+	.nett{
+		width: 100%;
+	}
+	.nett p{
+		width: 100%;
+	}
+	.rodape .rodape-linha1{
+		width: 100%;
+	}
+	.rodape .contato{
+		width: 100%;
+	}
+	.rodape .logob{
+		width: 100%;
+	}
+}
+

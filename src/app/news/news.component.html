@@ -1,0 +1,178 @@
+<!-- Login & Social-->
+<div class="login">
+	<a [routerLink]="['login']">Iniciar sessão</a>
+	<ul>
+	  <a href="https://pt-br.facebook.com/"><img src="assets/img/facebook.png" alt="facebook"></a>
+	  <a href="https://www.twitch.tv/"><img src="assets/img/tw.png" alt="twitch"></a>
+	  <a href="https://www.instagram.com/"><img src="assets/img/insta.png" alt="instagram"></a>
+	  </ul>
+  </div>
+  <!-- Cabeçalho -->
+  <header>
+		<div class="container-grid">
+			<div class="container-grid logo">
+			<div class="logo">
+					<a [routerLink]="['']"><img src="assets/img/logo.png" alt="logo"></a>
+			</div>
+		  </div>
+<!-- Menu -->
+<!-- Menu -->
+<nav class="navbar navbar-expand-xl bg-faded" style="background-color: #BBBBBB; border-color: rgb(255, 255, 255);">
+	<div class="container-fluid">
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item me-3" style="font-size: 23px; padding-left: 4px">
+				  <a class="nav-link active" style="color: rgb(24, 24, 24);" aria-current="page" [routerLink]="['']">Início</a>
+	</li>
+	<li class="nav-item me-3" style="font-size: 23px; padding-left: 4px">
+	<a class="nav-link active" style="color: rgb(24, 24, 24);" aria-current="page" [routerLink]="['news']">Notícias</a>
+	</li>
+	<li class="nav-item dropdown me-3">
+	  <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 23px; color: rgb(24, 24, 24)">
+		Menu
+	  </a>
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	<li><a class="dropdown-item" [routerLink]="['erro']">Comunidade</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" [routerLink]="['erro']">Política</a></li>
+	<li><hr class="dropdown-divider"></li>
+	<li><a class="dropdown-item" [routerLink]="['erro']">Quem Somos</a></li>
+	</ul>
+	<li class="nav-item dropdown">
+	   <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 23px; color: rgb(24, 24, 24)">
+					Categorias</a>
+	  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Gabinetes</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Memória</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Monitores</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Processadores</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Jogos</a></li>
+		  <li><hr class="dropdown-divider"></li>
+		  <li><a class="dropdown-item" [routerLink]="['erro']">Mais ></a></li>
+		   </ul>
+		  </ul>
+	<form class="d-flex" role="search">
+	   <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+		  <button type="submit" class="btn btn-secondary me-5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Buscar">Ir</button>
+	</form>
+	</div>
+	</div>
+	</nav>
+<!-- Notícias -->
+<div class="card mb-3">
+	<div class="card-body">
+		<div class="imgcc">
+		<img src="assets/img/not1.webp" class="card-img-top" alt="noticia 1">
+		</div>
+	  <h5 class="card-title">Gigabyte anuncia RTX 3070 Gaming Stealth com conectores de energia ocultos</h5>
+	  <p class="card-text">Em parceria com a montadora de PCs norte-americana Maingear, nesta sexta-feira (20) a Gigabyte anunciou a sua nova linha de produtos Stealth, que inclui a placa-mãe Z690 Aorus Elite Stealth, a placa de vídeo…</p>
+	  <a href="pag.html">
+		<p class="card-text"><small class="text-muted">Continuar lendo >>></small></p>
+		</a>
+	</div>
+  </div>
+  <div class="card mb-3">
+	<div class="card-body">
+		<div class="imgcc">
+		<img src="assets/img/not2.webp" class="card-img-top" alt="noticia 2">
+		</div>
+	  <h5 class="card-title">The Callisto Protocol: game de terror recebe nova imagem e garante lançamento em 2022</h5>
+	  <p class="card-text">Compartilhando o mesmo universo de PUBG: Battlegrounds (mas em um futuro distante dele), o jogo de terror The Callisto Protocol tem sido bastante antecipado pela Krafton, mas pouco foi mostrado sobre ele até agora. Nesta sexta-feira…</p>
+	  <a href="pag.html">
+		<p class="card-text"><small class="text-muted">Continuar lendo >>></small></p>
+		</a>
+	</div>
+</div>
+  <div class="card mb-3">
+	<div class="card-body">
+		<div class="imgcc">
+		<img src="assets/img/not3.webp" class="card-img-top" alt="noticia 3">
+		</div>
+	  <h5 class="card-title">AMD firma parceria com Google para utilizar a infraestrutura do Google Cloud na fabricação de chips</h5>
+	  <p class="card-text">A AMD anunciou nesta última quinta-feira (19) que firmou uma parceria com a Google para a utilização da infraestrutura na nuvem da empresa para reduzir as cargas de trabalho de automação de projetos eletrônicos (EDA)…</p>
+	  <a href="pag.html">
+		<p class="card-text"><small class="text-muted">Continuar lendo >>></small></p>
+		</a>
+	</div>
+  </div>
+  <div class="card mb-3">
+	<div class="card-body">
+		<div class="imgcc">
+		<img src="assets/img/not4.webp" class="card-img-top" alt="noticia 4">
+		</div>
+	  <h5 class="card-title">Unreal Engine 5 será usada em realidade virtual de treinamento para projeto da NASA</h5>
+	  <p class="card-text">De acordo com informações veiculadas pela mídia, a NASA utilizará o motor gráfico moderno com ênfase na atual geração de consoles e computadores, Unreal Engine 5, para criar um ambiente digital baseado em informações reais do planeta…</p>
+	  <a href="pag.html">
+	  <p class="card-text"><small class="text-muted">Continuar lendo >>></small></p>
+	  </a>
+	</div>
+  </div>
+<!-- Menu Páginas -->
+  <nav aria-label="Page navigation example">
+	<ul class="pagination justify-content-end">
+	  <li class="page-item disabled">
+		<a class="page-link">Anterior</a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="pag.html">1</a></li>
+	  <li class="page-item"><a class="page-link" href="pag.html">2</a></li>
+	  <li class="page-item"><a class="page-link" href="pag.html">3</a></li>
+	  <li class="page-item">
+		<a class="page-link" href="pag.html">Próxima</a>
+	  </li>
+	</ul>
+  </nav>
+
+<!-- Newsleter -->
+<div class="nett">
+  <div>
+      <img src="assets/img/net.png" alt="newsletter">
+  </div>
+  <div>
+  <p>INSCREVA-SE NA NEWSLETTER</p>
+  <button type="button" class="btn btn-warning" id="liveToastBtn">Se inscrever</button>
+  <div class="toast-container position-fixed bottom-0 end-0 p-2">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto">Parabéns!!!</strong>
+        <small>1s ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Você está inscrito com sucesso!
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Rodapé -->
+<footer>
+	<div class="rodape">
+	  <div class="rodape-linha1">
+		<div class="help">
+		  <ul>
+			<li><a [routerLink]="['erro']">> Dúvidas frequentes</a></li>
+			<li><a [routerLink]="['erro']">> Politica de Reembolso</a></li>
+			<li><a [routerLink]="['erro']">> Outros Assuntos</a></li>
+		  </ul>
+		</div>
+		<div class="contato">
+		  <ul>
+			<li>Telefone: (19) 09999-8888</li>
+			<li>Whatsapp: (19) 09999-8888</li>
+			<li>contato_gamemania@yahoo.com</li>
+		  </ul>
+		</div>
+	  </div>
+	<div class="logob">
+	  <img src="assets/img/logob.png" alt="logo rodapé">
+	  </div>
+	</div>     
+</footer>
